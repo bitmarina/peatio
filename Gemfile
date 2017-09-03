@@ -39,6 +39,9 @@ gem 'gon', '~> 5.2.0'
 gem 'pusher'
 gem 'eventmachine', '~> 1.0.4'
 gem 'em-websocket', '~> 0.5.1'
+gem 'em-http-request', '~> 1.1'
+
+gem 'thin', '~> 1.7'
 
 gem 'simple_form', '~> 3.1.0'
 gem 'slim-rails'
