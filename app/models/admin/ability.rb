@@ -18,13 +18,10 @@ module Admin
       can :menu, Deposit
       can :manage, ::Deposits::Bank
       can :manage, ::Deposits::Satoshi
-      can :manage, ::Deposits::Ether
 
       can :menu, Withdraw
       can :manage, ::Withdraws::Bank
       can :manage, ::Withdraws::Satoshi
-      can :manage, ::Withdraws::Ether
-
     end
   end
 end
